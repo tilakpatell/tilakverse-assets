@@ -2,7 +2,7 @@
 
 Source asset packs for [tilakpatell.com](https://tilakpatell.com)'s 3D worlds, kept apart from the site's repo so its clones and deploys stay small. Each pack is exactly as it was downloaded: Blender sources, FBX, OBJ, glTF/GLB, textures, and engine exports.
 
-Every pack here is **CC0 1.0** (public domain), by [Quaternius](https://quaternius.com). Credit isn't needed, though the site names Quaternius in its credits when a pack's models go into a world. Support him on [Patreon](https://www.patreon.com/quaternius).
+Every pack under `quaternius/` is **CC0 1.0** (public domain), by [Quaternius](https://quaternius.com). Credit isn't needed, though the site names Quaternius in its credits when a pack's models go into a world. Support him on [Patreon](https://www.patreon.com/quaternius).
 
 ## Getting them
 
@@ -36,4 +36,8 @@ From the site's repo, `node scripts/assets-fetch.mjs <pack>` fetches a pack's zi
 | `quaternius/stylized-nature-pack` | birch, maple, pine, palm and dead trees, bushes, flowers, grass, rocks | the Shire, Lothlórien, Naboo, Yavin 4 |
 | `quaternius/stylized-nature-megakit` | Stylized Nature MegaKit (source): five of each tree, bushes, ferns, flowers, grasses, mushrooms, rocks, rock paths, pebbles, and the Godot project | the same worlds' ground cover and paths |
 
-The Nature MegaKit's Unreal and Unity projects (204 and 207 MB zips) are over GitHub's 100 MB file limit. They're attached to this repo's [`engine-projects`](https://github.com/tilakpatell/tilakverse-assets/releases/tag/engine-projects) release instead.
+The Nature MegaKit's Unreal, Unity and Godot projects (204, 207 and 89 MB zips) are attached to this repo's [`engine-projects`](https://github.com/tilakpatell/tilakverse-assets/releases/tag/engine-projects) release instead, split into parts: `cat Stylized_Nature_MegaKitGodot.zip.part-* > Stylized_Nature_MegaKitGodot.zip` (sha256 `27fe9a17d0aec1e4f2036a7edd89b28a351f763c5c8f513055f6418495223e16`).
+
+## Sketchfab
+
+`sketchfab/star-wars/` lists Star Wars models from Sketchfab: a rigged B1 battle droid, a rigged and animated AT-AT, a TIE fighter and two Venators. They are CC BY or CC BY-NC-SA, not CC0, and the GLBs themselves are on the [`sketchfab-star-wars`](https://github.com/tilakpatell/tilakverse-assets/releases/tag/sketchfab-star-wars) release.
